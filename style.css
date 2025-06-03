@@ -45,10 +45,14 @@
     grid-row:1/1;
     justify-content: space-evenly;
 
-
 }
 #bell{
     grid-column: 2/2;
+    display:grid;
+    font-weight: 700;
+    
+    justify-content: space-around;
+    padding-left:50px;
 }
 .main{
     grid-column:2/4;
@@ -83,3 +87,4 @@ input{
     border:1px #eeeeee solid;
     padding-left:10px;
 }
+
